@@ -11,13 +11,13 @@
         android:id="@+id/imageView"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/paccy" />
+        app:srcCompat="@drawable/job" />
 
     <EditText
         android:inputType="text"
         android:layout_width="279dp"
         android:layout_height="80dp"
-        android:hint="Enter username"
+        android:hint="username here"
         android:id="@+id/Username"
 
         />
@@ -25,15 +25,15 @@
         android:inputType="textPassword"
         android:layout_width="279dp"
         android:layout_height="80dp"
-        android:hint="Enter password"
+        android:hint="password Here"
         android:id="@+id/password"
 
         />
     <Button
         android:id="@+id/button"
-        android:layout_width="279dp"
-        android:layout_height="80dp"
-        android:text="Login"
+        android:layout_width="270dp"
+        android:layout_height="600dp"
+        android:text="signin"
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="347dp"
         android:onClick="butonClicked"/>

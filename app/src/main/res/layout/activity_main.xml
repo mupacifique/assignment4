@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Username"
-        android:hint="Enter Email"
+        android:hint="Email"
 
         />
 
@@ -23,14 +23,14 @@
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Your password"
+        android:hint="password"
         android:id="@+id/Password"
         />
 
 
 <Button
     android:layout_margin="15dp"
-    android:text="Register "
+    android:text="Register"
     android:id="@+id/buttonregister"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
